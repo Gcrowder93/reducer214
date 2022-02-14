@@ -4,7 +4,7 @@ import { useEffect, useState, useReducer } from 'react'
 
 const pinkRGB = `rgb(236, 72, 153)`
 
-const initialCounters = [{ count: 0 }]
+const initialCounters = { count: 0 }
 
 function countersReducer(counters, action) {
   switch (action.type) {
